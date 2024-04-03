@@ -1,0 +1,22 @@
+.game-icon {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.game-box {
+  border: 2px solid black;
+  height: 900px;
+  width: 80%;
+  position: absolute;
+  right: 0.5px;
+  top: 100px;
+  overflow-y: scroll;
+}
+.list-two {
+  display: grid;
+  grid-auto-rows: 3fr;
+  grid-template-columns: repeat(3, 1fr);
+}

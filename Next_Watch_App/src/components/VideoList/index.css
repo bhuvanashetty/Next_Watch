@@ -1,0 +1,20 @@
+.allVideoList {
+  border: 2px solid black;
+  height: 900px;
+  width: 80%;
+  position: absolute;
+  right: 0.5px;
+  top: 400px;
+  overflow-y: scroll;
+  display: grid;
+  grid-auto-rows: 3fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+.thumbnail {
+  height: 200px;
+  width: 300px;
+}
+.clogo {
+  height: 40px;
+  width: 60px;
+}

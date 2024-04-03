@@ -1,0 +1,29 @@
+.div-delete {
+  border: 2px black solid;
+  height: 250px;
+  width: 80%;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+.search-bar {
+  height: 40px;
+  width: 400px;
+  position: relative;
+  top: 350px;
+}
+.search-box {
+  position: absolute;
+  left: 300px;
+  top: 375px;
+}
+.banner-image {
+  height: 250px;
+  width: 50%;
+  position: absolute;
+  left: 750px;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+}

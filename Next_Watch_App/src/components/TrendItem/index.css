@@ -1,0 +1,16 @@
+.trend-data {
+  height: 250px;
+  width: 600px;
+}
+.trend-img {
+  height: 250px;
+  width: 400px;
+}
+.trend-render {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  width: 1000px;
+}

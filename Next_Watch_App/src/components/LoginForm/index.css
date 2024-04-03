@@ -1,0 +1,81 @@
+.website-logo {
+  height: 100px;
+  width: 300px;
+  position: fixed;
+  bottom: 600px;
+  left: 450px;
+}
+.website-login {
+  width: 600px;
+  height: 200px;
+}
+.website {
+  height: 1000px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  right: 550px;
+  bottom: 10px;
+}
+.login-form {
+  position: absolute;
+  top: 0.5px;
+  left: 600px;
+  height: 1000px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  bottom: 300px;
+  right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  height: 40px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: #d7dfe9;
+  color: black;
+}
+.pass {
+  height: 40px;
+  width: 60%;
+  background-color: #d7dfe9;
+  border-radius: 10px;
+}
+.btn {
+  height: 40px;
+  width: 60%;
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color: #0b69ff;
+  color: white;
+  position: absolute;
+  top: 325px;
+}
+.u {
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p {
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+  height: 500px;
+  width: 50%;
+  position: fixed;
+  top: 200px;
+  left: 300px;
+  box-shadow: 3px 3px 4px 4px #e2e8f0;
+}
